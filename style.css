@@ -1,0 +1,53 @@
+h1{
+    text-align:center;
+}
+
+.container-form{
+    
+    margin-bottom: 50px;
+    border:2px solid black;
+    border-radius:12px ;
+    padding:20px;
+    box-shadow: 0 4px 10px rgba(0, 100, 500, 0.2);
+}
+.BookForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+input[type="text"]{
+    width: 300px;
+    padding: 10px;
+    border:1px solid #ccc;
+    border-radius:8px ;
+}
+button{
+    padding: 10px 20px;
+    border:none;
+    border-radius:8px ;
+    background-color: #28a745;
+    color:white;
+    cursor: pointer;
+}
+h2{
+    padding-left:50px;
+}
+.container-list{
+min-height: 400px;
+    border:2px solid black;
+    border-radius:12px ;
+    padding:20px;
+    box-shadow: 0 4px 10px rgba(0, 100, 500, 0.2);
+    align-items: center;
+}
+#books-list{
+    word-break: break-all; 
+
+}
+.extra-space {
+    margin-left: 10px !important; /* Adjust the value as needed */
+}
+#BookList h2 {
+        margin-bottom: 25px; 
+}
